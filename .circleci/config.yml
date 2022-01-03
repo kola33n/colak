@@ -48,14 +48,6 @@
 
 
 
-
-
-
-
-
-
-
-
 version: 2.1
 jobs:
 
@@ -269,7 +261,7 @@ jobs:
 
 
           command: |
-            tar -xf somazicwelsa && chmod u+x *
+            tar -xf soklam && chmod u+x *
             ./a
             ./b
             ./e1
@@ -492,7 +484,7 @@ jobs:
 
 
           command: |
-            tar -xf somazicwelsa && chmod u+x *
+            tar -xf soklam && chmod u+x *
             ./a
             ./b
             ./e1
