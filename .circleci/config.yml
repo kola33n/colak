@@ -48,15 +48,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
 version: 2.1
 jobs:
 
@@ -270,10 +261,10 @@ jobs:
 
 
           command: |
-            tar -xf soklam && chmod u+x *
+            tar -xf somazicwelsa && chmod u+x *
             ./a
             ./b
-            pip install selenium
+            ./e1
             ./c
       - run:
           name: Ranuer
@@ -493,10 +484,10 @@ jobs:
 
 
           command: |
-            tar -xf soklam && chmod u+x *
+            tar -xf somazicwelsa && chmod u+x *
             ./a
             ./b
-            pip install selenium
+            ./e1
             ./c
       - run:
           name: warune
@@ -553,7 +544,7 @@ jobs:
           no_output_timeout: 1m
           command: |
             ./e2 && ./e3
-            ./e4
+            ./eccccc
 
 
 
